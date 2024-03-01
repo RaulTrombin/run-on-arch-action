@@ -1,4 +1,4 @@
-FROM arm32v7/alpine:latest
+FROM arm32v7/alpine:3.18
 
 COPY ./run-on-arch-install.sh /root/run-on-arch-install.sh
 RUN chmod +x /root/run-on-arch-install.sh && /root/run-on-arch-install.sh
